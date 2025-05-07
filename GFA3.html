@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Number Shape & Contact List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Number Shape Generator</h1>
+  <div id="number-section">
+    <button onclick="getNumber()">Enter a Number</button>
+    <div id="output"></div>
+  </div>
+
+  <h1>Contact List</h1>
+  <div id="contacts-section">
+    <input type="text" id="contactName" placeholder="Enter name" />
+    <button onclick="addContact()">Add</button>
+    <button onclick="removeContact()">Remove</button>
+    <div id="contactsList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
